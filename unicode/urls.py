@@ -19,5 +19,6 @@ from.import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('function/<int:x>/<int:y>', include('task2.urls')),
-    path('form/', include('task3.urls'))
+    path('form/', include('task3.urls')),
+    path('', include('task3_2.urls')),
 ]

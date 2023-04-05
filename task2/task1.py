@@ -26,6 +26,4 @@ def check(x,y):
         number = {num: condition}
         final.update(number)
     return final
-x=int(input("Enter starting number: "))
-y=int(input("Enter ending number: "))
-check(x,y)
+

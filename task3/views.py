@@ -22,9 +22,9 @@ def country(request):
             return render(request, 'form.html',{"form":form})
     return render(request, 'form.html',{"form":form})
 
-def data(request):
+##def data(request):
     stat="india"
-    return render(request,'forn2.html',)
+    return render(request,'forn2.html',) 
     
 
 
